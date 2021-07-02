@@ -1,0 +1,19 @@
+body{
+    max-width: 100%;
+    text-align: center;
+}
+.ol{
+    text-align: center;
+}
+h1{
+    position: center;
+    font-style: normal;
+    font-family: sans-serif;
+}
+.link{
+    color: blue;
+}
+table, th, td{
+    border: solid black;
+    
+}
