@@ -36,10 +36,18 @@ function myHeading() {
 }
 
 function newRow() {
-    let x = document.getElementById('tr').insertRow(0);
-let y = x.insertCell(0);
-let z = x.insertCell(1);
-y.innerHTML="New Cell1";
-z.innerHTML="New Cell2";
-    
+    let table = document.getElementById("fish")
+    let row = table.insertRow(0)
+    let cell1 = row.insertCell(0)
+    let cell2 = row.insertCell(1)
+    cell1.innerHTML = "New Cell1"
+    cell2.innerHTML = "New Cell2"
 }
+
+newRow();
+
+function newBackground(){
+    let oldColor = document.getElementsByClassName("bing")
+    oldColor.style.color = "red"
+}
+newBackground()
