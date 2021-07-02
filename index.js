@@ -29,3 +29,17 @@ console.log(man)
 document.getElementById("container")
 
 document.getElementsByTagName("td")
+
+function myHeading() {
+    const h1 = document.querySelector("h1")
+    h1.innerText = "Champions League"
+}
+
+function newRow() {
+    let x = document.getElementById('tr').insertRow(0);
+let y = x.insertCell(0);
+let z = x.insertCell(1);
+y.innerHTML="New Cell1";
+z.innerHTML="New Cell2";
+    
+}

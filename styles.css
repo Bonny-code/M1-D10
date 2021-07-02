@@ -37,3 +37,7 @@ table, th, td{
 p{
     margin-top: 0rem;
 }
+nav{
+    background-color: teal;
+    padding: auto;
+}
