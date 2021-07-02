@@ -3,11 +3,19 @@ body{
     text-align: center;
     font-size: 20px;
     font-weight: bolder;
+    background-color:turquoise;
     
 }
-.ol{
+ol{
     text-align: center;
+    display: table;
+  margin: 0 auto;
 }
+ul{
+    display: table;
+  margin: 0 auto;
+}
+
 h1{
     position: center;
     font-style: normal;
@@ -22,6 +30,10 @@ table, th, td{
     
 
 }
+.hide{
+    visibility: hidden;
+}
+
 p{
     margin-top: 0rem;
 }
