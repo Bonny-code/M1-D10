@@ -15,3 +15,17 @@ console.log(person)
 
 let man = ["janauary", "february", "march", "april", "may", "june", "july", "august", "september", "october"]
 console.log(man)
+
+
+
+
+
+
+
+
+
+//DOM
+
+document.getElementById("container")
+
+document.getElementsByTagName("td")
